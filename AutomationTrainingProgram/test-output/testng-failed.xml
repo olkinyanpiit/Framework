@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="tests" name="Failed suite [Adhoc]" guice-stage="DEVELOPMENT">
+  <test thread-count="6" parallel="tests" name="RegressionofEdge(failed)">
+    <parameter name="browsers" value="Edge"/>
+    <classes>
+      <class name="piit.AutomationTrainingProgram.SigninSignout">
+        <methods>
+          <include name="f"/>
+          <include name="beforeClass"/>
+          <include name="TextVerificationMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- piit.AutomationTrainingProgram.SigninSignout -->
+    </classes>
+  </test> <!-- RegressionofEdge(failed) -->
+  <test thread-count="6" parallel="tests" name="RegressionofChrome(failed)">
+    <parameter name="browsers" value="Chrome"/>
+    <classes>
+      <class name="piit.AutomationTrainingProgram.SigninSignout">
+        <methods>
+          <include name="f"/>
+          <include name="beforeClass"/>
+          <include name="TextVerificationMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- piit.AutomationTrainingProgram.SigninSignout -->
+    </classes>
+  </test> <!-- RegressionofChrome(failed) -->
+  <test thread-count="6" parallel="tests" name="RegressionofFirefox(failed)">
+    <parameter name="browsers" value="Firefox"/>
+    <classes>
+      <class name="piit.AutomationTrainingProgram.SigninSignout">
+        <methods>
+          <include name="f"/>
+          <include name="beforeClass"/>
+          <include name="TextVerificationMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- piit.AutomationTrainingProgram.SigninSignout -->
+    </classes>
+  </test> <!-- RegressionofFirefox(failed) -->
+</suite> <!-- Failed suite [Adhoc] -->
